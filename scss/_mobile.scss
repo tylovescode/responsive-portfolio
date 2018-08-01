@@ -40,6 +40,16 @@
       height: 150px;
     }
   }
+  // Stacks areas on small screens
+  .about-intro {
+    grid-template-areas:
+      'bioimage'
+      'bio'
+      'job1'
+      'job2'
+      'job3';
+    grid-template-columns: 1fr;
+  }
 }
 //Smartphones
 @include mediaSm {
